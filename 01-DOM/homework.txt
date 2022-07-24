@@ -1,0 +1,28 @@
+DOM: Es un modelo de objeto global, que crea el motor del browser cuando carga una pagina
+HTML.  dicho objeto es construido en forma de arbol y a su vez cada nodo es un objeto que
+representa un elemento de la pagina HTML. Este arbol contiene caracteristicas y metodos
+tanto del documento global como para cada elemento de la pagina y mediante estos podemos 
+modificar el estilo y comportamiento de cada objeto y de la pagina, a traves de javascript.
+
+DOM Element Selectors: dentro de los metodos que tiene el objeto DOM, se encuentran los selectores
+que sirven para buscar y seleccionar los objetos de los elementos de la pagina por su Clase o ID
+para luego ser accesados mediante javascript y cambiar sus atributos y comportamiento. 
+Dentro de los metodos se encuentra los siguientes:
+    - getElementByClassName
+    - getElementById
+    - querySelector
+    - querySelectorAll
+
+
+DOM Events: son eventos o acciones que ocurren dentro de una pagina HTML y cada uno de sus
+elementos y que pueden ser identificados por le motor del browser para poder efectuar 
+acciones en respuesta a los mismos mediante javascript.  
+
+Como ejemplo de eventos tenemos:
+
+- Click : en algun elemento de la pagina
+- Mouse moove : sobre algun elemento de la pagina.
+
+
+
+

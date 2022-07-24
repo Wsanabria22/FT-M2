@@ -96,6 +96,7 @@ body {
 .completeText {
   color: lightgrey;
   text-decoration: line-through;
+  background-color: aquamarine;
 }
 
 .completeCheckbox {
