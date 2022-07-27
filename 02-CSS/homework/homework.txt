@@ -1,0 +1,64 @@
+FRAMEWORK: un FRAMEWORK es un conjunto de herramientas o funcionalides
+ya predefinidas y almacenadas en una libreria o cojunto de archivos, 
+que nos permiten construir aplicaciones de una forma rapidA, eficiente
+y modular.
+Estas herramientas o funcionalides vienen en forma de metodos, funciones o
+grupos de instrucciones / bloques de codidgo, que podemos utilizar de forma
+modular para ir construyendo nuestras aplicaciones.
+
+En especial para CSS son un conjunto de estilos ya predefinidos con los
+cuales podemos contruir interfaces de usuario de forma rapida y facil.
+
+
+RESPONSIVE WEB SITE: es la caracteristica que tiene o se da a las paginas
+o aplicaciones de poder adaptarse a los diferentes tamaños de pantallas
+de los dispositivos para que dichas aplicaciones de vean de forma adecuada
+y sean funcionalmente facil de utilizar y entender.
+
+El responsive WEB SITE se construye a partir de instruciones o sentencias
+en CSS llamadas CSS MEDIA QUERIES.  En donde se le indica a la aplicacion
+que si el dispositivo tiene deteminado ancho de pilexes, reorganice la
+interface de usuario de una forma diferente, aplicando propiedades CSS
+especificas a los diferentes elementos que componen la interface.
+
+Ej: para una pantalla de un ancho de 900 pilexes de determina un color 
+de fondo azul.
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+
+para una pantalla de un ancho de 600 pilexes de determina un color 
+de fondo negro.
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: black;
+  }
+}
+
+para una pantalla de un mayor a 900 pilexes de determina un color 
+de fondo rojo.
+
+body {
+  background-color: red;
+}
+
+
+PREPROCESADORES: en CSS son programas que tienen un seudo lenguaje que 
+permite constuir de forma eficiente y modular los diferentes estilos CSS 
+para una aplicacion, al incluir facilidades o funcionalidades que no tiene
+CSS como:
+
+- el manejo de variables, para estandarizar valores de los diferentes
+  atributos a lo largo de todos los diseños de una aplicacion.
+- bloques de codigo reutilizables llamados Mixims,  los cuales pueden
+  recibir parametros para un manejo mas modular de los estilos CSS.
+- funciones o metodos para poder hacer operaciones que calculen los valores
+  de los atributos de CSS. Dichas funciones nos permiten transformar 
+  colores, manipular strings y realizar cálculos matemáticos.
+- Heredar propiedades CSS desde otros selectores.
+
+
