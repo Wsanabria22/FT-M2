@@ -1,6 +1,10 @@
-(function () {
+// (function () {
 
-  window.whiteboard = new window.EventEmitter();
+  // window.whiteboard = new window.EventEmitter();
+
+  // var EventEmitter = require('./event-emitter'); // comon JS
+  import EventEmitter  from './event-emitter';   // ES6
+  const whiteboard = new EventEmitter();
 
   // Ultimately, the color of our stroke;
   var color;
@@ -113,4 +117,7 @@
 
   };
 
-})();
+  // module.exports = whiteboard; // comon JS
+  export default whiteboard; // ES6
+
+// })();
