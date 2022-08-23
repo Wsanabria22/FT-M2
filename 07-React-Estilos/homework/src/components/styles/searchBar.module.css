@@ -1,0 +1,23 @@
+.search {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+}
+
+.input {
+    background-color: #003566;
+    color: var(--text);
+}
+
+.input::placeholder {
+    color: whitesmoke;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.btn {
+    border: 1px solid var(--border);
+    background-color: var(--border);
+}

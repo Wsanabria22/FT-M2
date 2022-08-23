@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid blue;
+  border-radius: 1rem;
+  width: fit-content;
+  padding: 3px;
+  margin: 3px;
+  max-width: 400px;
+  background-color: rgb(188, 223, 248);
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: red;
+}
+
+.btnDiv {
+  display: flex;
+  justify-content:flex-end;
+  padding: 3px;
+}
+
+.btn:hover {
+  color:#22283A;
+  background-color: aliceblue;
+}
+
+.nameDiv {
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+}
+
+.dataDiv {
+  display: flex;
+  justify-content: space-around;
+  padding: 3px;
+}
+
+.itemDiv {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 10%;
+}
